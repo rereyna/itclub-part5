@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Sederhana</title>
+    <style>
+        /* Bagian portofolio */
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .card {
+            background: white;
+        }
+
+        .card img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card h3 {
+            margin: 10px;
+            color: #24a4a8;
+        }
+
+        .card p {
+            margin: 10px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Bagian Portofolio -->
+    <div class="container">
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80"
+                alt="Proyek 1">
+            <h3>Proyek 1</h3>
+            <p>Website profil pribadi menggunakan HTML dan CSS.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+                alt="Proyek 2">
+            <h3>Proyek 2</h3>
+            <p>Desain antarmuka aplikasi dengan tampilan modern dan responsif.</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80"
+                alt="Proyek 3">
+            <h3>Proyek 3</h3>
+            <p>Aplikasi web sederhana berbasis CSS Grid layout.</p>
+        </div>
+    </div>
+</body>
+
+</html>
